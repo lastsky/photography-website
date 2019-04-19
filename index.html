@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Timothy Harvey's photography website">
+    <meta name="keywords" content="Timothy Harvey, photography, street photography, noir photography, landscape photography, Edinburgh, Scotland, black and white">
+    <meta name="author" content="Tim Harvey">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timothy Harvey | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,400|Raleway:100" rel="stylesheet">
+  </head>
+
+
+  <body>
+
+    <header>
+      <div class="container">
+        <img id="logo" src="/img/icons/logo.png" alt="">
+        <nav>
+          <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li id="dropdown">Portfolio&#9662;
+              <ul id="dropdown-content">
+                <li><a href="landscape.html">Landscape</a></li>
+                <li><a href="street-noir.html">Street Noir</a></li>
+              </ul>
+            </li>
+            <li><a href="bio.html">Bio</a></li>
+            <li><a href="store.html">Store</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero-section">
+      <div class="container">
+        <h1 id="hero-title">Timothy Harvey</h1>
+        <p id="hero-subtitle">Photography</p>
+        <!--scroll down arrow-->
+        <a id="down-arrow" href="#gallery-selection"><img src="/img/icons/down_arrow.png" alt=""></a>
+      </div>
+    </section>
+
+    <section id="gallery-selection"><!--this is where the user can select which photo gallery to go to-->
+      <div class="container">
+        <!--gallery 1 - landscape-->
+        <figure id="landscape-selector">
+          <a href="landscape.html">
+            <img src="/img/landscape_selector.jpg" alt="A mountain in Iceland with farm houses at its foot">
+            <figcaption>Landscape</figcaption>
+          </a>
+        </figure>
+        <!--gallery 2 - street noir-->
+        <figure id="street-noir-selector">
+          <a href="street-noir.html">
+            <img src="/img/street_noir_selector.jpg" alt="A white horse and cart in Krakow's main square at night">
+            <figcaption>Street Noir</figcaption>
+          </a>
+        </figure>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2019 Timothy Harvey<br>All Rights Reserved</p>
+        <p>If you like my work, why not follow me on Instagram <a href="#"><img id="instagram-logo" src="/img/icons/instagram.png" alt=""></a></p>
+      </div>
+    </footer>
+
+  </body>
+
+</html>

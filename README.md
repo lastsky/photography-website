@@ -1,2 +1,3 @@
-# photography-website
-A website where I can showcase both my photography and my front-end development skills
+# My-Photography-Website
+
+This is a website that I can use to showcase both my front-end development skills as well as my photography
