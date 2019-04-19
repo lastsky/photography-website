@@ -106,7 +106,7 @@ header a:hover, header li:hover {
 #hero-section {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/hero_image.jpg);
-  background-position: center 65%;
+  background-position: center 70%;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
