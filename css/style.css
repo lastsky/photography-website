@@ -8,7 +8,7 @@
 html, body {
   font-family: Muli, sans-serif;
   color: #f4f4f4;
-  background-color: #3d3d3d;
+  background-color: #2b2b2b;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
@@ -75,6 +75,7 @@ a {
 
 .button:hover {
   background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .button-holder {
