@@ -13,6 +13,10 @@ html, body {
   box-sizing: border-box;
 }
 
+html.lighter-background, body.lighter-background {
+  background-color: #494949;
+}
+
 .container {
   width: 85%;
   margin: 0 auto;
@@ -164,6 +168,22 @@ header a:hover, header li:hover {
   transform: translateY(0%);
 }
 
+@media (max-width: 500px) {
+  header {
+    height: 70px;
+  }
+  header .container {
+    justify-content: center;
+  }
+  #logo {
+    display: none;
+  }
+  nav {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
                             /* hero */
 #hero-section {
   height: 100vh;
@@ -207,6 +227,18 @@ header a:hover, header li:hover {
   transform: scale(0.8);
 }
 
+@media (max-width: 500px) {
+  #hero-title {
+    font-size: 3.2rem;
+    padding-top: 40vh;
+    padding-bottom: 20px;
+  }
+  #hero-subtitle {
+    font-size: 1rem;
+    padding-bottom: 12vh;
+  }
+}
+
 
                             /* gallery selection (on hero page) */
 #gallery-selection {
@@ -247,6 +279,26 @@ header a:hover, header li:hover {
 #gallery-selection img:hover {
   transform: scale(1.015);
   opacity: 1;
+}
+
+@media (max-width: 500px) {
+  #gallery-selection {
+    height: 94vh;
+    font-size: 1rem;
+  }
+  #gallery-selection .narrow-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #gallery-selection figure {
+    margin-top: 30px;
+  }
+  #gallery-selection figcaption {
+    padding-top: 10px;
+  }
+  #gallery-selection img {
+    width: 80vw;
+  }
 }
 
                             /* bio */
@@ -362,6 +414,7 @@ textarea {
 .photo-gallery-image:hover {
   transform: scale(1.015);
   opacity: 1;
+  cursor: pointer;
 }
 
                             /* footer */
@@ -397,4 +450,18 @@ footer a {
 
 footer img:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 500px) {
+  footer {
+    height: 6vh;
+    font-size: 0.7rem;
+  }
+  footer .container {
+    justify-content: center;
+    height: inherit;
+  }
+  footer p#copyright {
+    display: none;
+  }
 }
